@@ -8,7 +8,7 @@ $class1=mysqli_num_rows($result);
 $sql="SELECT * FROM studentstable WHERE course_id=2";
 $result=mysqli_query($db,$sql) or die("error getting data");
 $class2=mysqli_num_rows($result);
-
+//baik php//
 ?>
 <?php
 $sql="SELECT * FROM studentstable WHERE course_id=3";
